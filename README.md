@@ -1,6 +1,6 @@
 ## Base model chat
 
-command lime chat with a base model
+command line chat with a base model
 
 ```/exit```
 
