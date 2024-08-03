@@ -81,9 +81,9 @@ class BaseModelChat:
         print("     \--------============--------/ ")
 
         while True:
-            print('\n---------')  # new line before the response
+            print('\n---------')
             prompt = await asyncio.get_event_loop().run_in_executor(None, input, "◊> ")
-            print('---------\n')  # new line after the response
+            print('---------\n')
             if prompt.lower() in ["/exit", "/quit"]:
                 break
             elif prompt == "/save":
